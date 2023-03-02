@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@picocss/pico@1.*/css/pico.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+    <title>Milvolbox</title>
+    <script defer src="https://unpkg.com/phosphor-icons"></script>
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="hero" data-theme="dark">
+      <!-- Nav -->
+      <nav class="container-fluid">
+        <ul>
+          <li>
+            <li><strong>LOGO</strong></li>
+            <a href="https://www.facebook.com/" class="secondary"><i class="ph-facebook-logo"></i></a>
+            <a href="https://www.instagram.com/" class="secondary"><i class="ph-instagram-logo"></i></a>
+            <a href="https://www.messenger.com/" class="secondary"><i class="ph-messenger-logo"></i></a>
+            <a href="https://www.tiktok.com/en/" class="secondary"><i class="ph-tiktok-logo"></i></a>
+            <a href="https://twitter.com/?lang=en" class="secondary"><i class="ph-twitter-logo"></i></a>
+            <a href="https://www.youtube.com/" class="secondary"><i class="ph-youtube-logo"></i></a>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a id="flip" href="#" class="secondary"><i class="ph-list"></i></a>
+          </li>
+        </ul>
+        <aside id="panel">
+          <nav>
+            <ul>
+              <li><a role="button" class="contrast" href="#">Naslovna</a></li>
+              <li><a role="button" class="secondary" href="#">Usluge</a></li>
+              <li><a role="button" href="#">Cenovnik</a></li>
+              <li><a href="#">Kontakt</a></li>
+            </ul>
+          </nav>
+        </aside>     
+      </nav>
+      <header class="container-fluid">
+        <div class="container">
+          <hgroup>
+            <h1>Milvolbox</h1>
+            <h3>Pravimo kutije od kartona <br /> i sasvim smo dobri</h2>
+          </hgroup>
+          <p><a href="#" role="button" onclick="event.preventDefault()">Kontakt</a></p>
+        </div>
+        <img class="shipping-box" src="img/plain-shipping-boxes-packhelp-kva.png" alt="kutije za prodaju" width="300px">
+      </header>
+    </div> <!--HERO-->
+    <!-- Main -->
+    <main class="container">
+      <div class="grid">
+
+        <section>
+          <hgroup>
+            <h2>Naše kutije</h2>
+            <h3>Najbolje kutije na svetu</h3>
+          </hgroup>
+          <p>Kutije pravimo od kartona. I od čega god da se prave.</p>
+          <figure>
+            <img src="img/plain-shipping-boxes-packhelp-kva.png" alt="Architecture">
+            
+          </figure>
+        </section>
+
+        <section class="grid centered">
+          <a href="#" onclick="event.preventDefault()">
+            <img class="card-img" src="img/plain-shipping-boxes-packhelp-kva.png" alt="shipping box">
+            <hgroup>
+              <h4>Kutija mnogo dobra</h4> 
+              <p>Oduševiće vas načisto</p> 
+            </hgroup>
+          </a> 
+          <a href="#" onclick="event.preventDefault()">
+            <img class="card-img" src="img/plain-shipping-boxes-packhelp-kva.png" alt="shipping box">
+            <hgroup>
+              <h4>Kutija mnogo dobra</h4> 
+              <p>Oduševiće vas načisto</p> 
+            </hgroup>
+          </a>    
+          <a href="#" onclick="event.preventDefault()">
+            <img class="card-img" src="img/plain-shipping-boxes-packhelp-kva.png" alt="shipping box">
+            <hgroup>
+              <h4>Kutija mnogo dobra</h4> 
+              <p>Oduševiće vas načisto</p> 
+            </hgroup>
+          </a>    
+          <a href="#" onclick="event.preventDefault()">
+            <img class="card-img" src="img/plain-shipping-boxes-packhelp-kva.png" alt="shipping box">
+            <hgroup>
+              <h4>Kutija mnogo dobra</h4> 
+              <p>Oduševiće vas načisto</p> 
+            </hgroup>
+          </a>             
+        </section>
+
+      </div>
+    </main><!-- ./ Main -->
+
+    <footer class="centered">
+      <h4>Milvolbox 2023 - Sva prava zadržana.</h4>
+    </footer>
+      
+  </body>
+</html>
